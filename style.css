@@ -50,8 +50,12 @@ body{
     background-color: transparent;
     border: none;
     outline: none;
+    margin-top: -5px;
     font-size: 2rem;
     color: black;
+    background: #e0e0e0;
+box-shadow:  2px 2px 6px #bebebe,
+             -2px -2px 6px #ffffff;
 }
 .keys{
     display: flex;
