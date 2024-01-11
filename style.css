@@ -1,14 +1,5 @@
 :root {
-    --bg: #F1EAFF;
     --text: #D67BFF;
-    --keypad-bg: #F1EAFF;
-    --keypad-bg-color2: #D0A2F7;
-
-/* 
-    --bg-color: #040D12;
-    --text-color: #93B1A6;
-    --keypad-bg-color: #040D12;
-    --keypad-bg-color2: #183D3D; */
 }
 *{
     margin: 0;
