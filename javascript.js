@@ -1,3 +1,22 @@
+const themeToggle = document.getElementById('themeToggle');
+
+themeToggle.addEventListener('change',function(){
+    if(this.checked){
+        document.documentElement.style.setProperty('--bgcolor','#01080a');
+        document.documentElement.style.setProperty('--gradiant','linear-gradient(135deg, #01080a 0%, #204559 100%)');
+        document.documentElement.style.setProperty('--text','#0a2929');
+        document.documentElement.style.setProperty('--equal','black');
+    }
+    else{
+        document.documentElement.style.setProperty('--bgcolor','#D9AFD9');
+        document.documentElement.style.setProperty('--gradiant','linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%)');
+        document.documentElement.style.setProperty('--text','#D67BFF');
+        document.documentElement.style.setProperty('--equal','rgba(85, 17, 70, 0.847)');
+    }
+})
+
+
+
 let res = document.getElementById('display');
 
 function append(value){
